@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.calculator.CalculatorApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-06T20:08:12.690Z" hostname="MacBook-Pro-de-Carine.local" time="0.317">
+  <properties/>
+  <testcase name="contextLoads()" classname="br.com.calculator.CalculatorApplicationTests" time="0.317"/>
+  <system-out><![CDATA[17:08:12.414 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [br.com.calculator.CalculatorApplicationTests]: CalculatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:08:12.448 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration br.com.calculator.CalculatorApplication for test class br.com.calculator.CalculatorApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.5)
+
+2025-09-06T17:08:12.567-03:00  INFO 62638 --- [calculator] [    Test worker] b.c.c.CalculatorApplicationTests         : Starting CalculatorApplicationTests using Java 21.0.7 with PID 62638 (started by cbbathaglini in /Users/cbbathaglini/Documents/trabalho/apresentacoes/pitest/calculator)
+2025-09-06T17:08:12.568-03:00  INFO 62638 --- [calculator] [    Test worker] b.c.c.CalculatorApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2025-09-06T17:08:12.688-03:00  INFO 62638 --- [calculator] [    Test worker] b.c.c.CalculatorApplicationTests         : Started CalculatorApplicationTests in 0.201 seconds (process running for 0.564)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/cbbathaglini/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.17.7/fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da/byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

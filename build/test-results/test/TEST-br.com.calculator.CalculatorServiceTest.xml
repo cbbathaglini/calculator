@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.calculator.CalculatorServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-09-06T20:08:13.021Z" hostname="MacBook-Pro-de-Carine.local" time="0.013">
+  <properties/>
+  <testcase name="[1] a=5, b=2, expected=3" classname="br.com.calculator.CalculatorServiceTest" time="0.008"/>
+  <testcase name="[2] a=2, b=5, expected=-3" classname="br.com.calculator.CalculatorServiceTest" time="0.001"/>
+  <testcase name="[1] a=1, b=2, expected=3" classname="br.com.calculator.CalculatorServiceTest" time="0.0"/>
+  <testcase name="[2] a=-1, b=1, expected=0" classname="br.com.calculator.CalculatorServiceTest" time="0.001"/>
+  <testcase name="[3] a=100, b=200, expected=300" classname="br.com.calculator.CalculatorServiceTest" time="0.0"/>
+  <testcase name="[1] a=3, b=4, expected=12" classname="br.com.calculator.CalculatorServiceTest" time="0.0"/>
+  <testcase name="[2] a=-3, b=4, expected=-12" classname="br.com.calculator.CalculatorServiceTest" time="0.001"/>
+  <testcase name="[3] a=0, b=99, expected=0" classname="br.com.calculator.CalculatorServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
